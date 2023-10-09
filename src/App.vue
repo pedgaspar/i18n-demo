@@ -1,9 +1,8 @@
 <script setup>
-import Header from './components/Header.vue'
+import LanguageSelector from './components/LanguageSelector.vue'
 </script>
 
 <template>
-  <div id="app">
-    <Header/>
-  </div>
+  <language-selector/>
+  <h1>{{ $t('welcome') }}</h1>
 </template>

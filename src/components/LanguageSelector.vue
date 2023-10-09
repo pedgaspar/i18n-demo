@@ -9,8 +9,6 @@
                 </select>
             </div>
         </div>
-
-        <h1>{{ $t('welcome') }}</h1>
     </nav>
 </template>
 <script>
