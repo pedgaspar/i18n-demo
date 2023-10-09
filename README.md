@@ -1,6 +1,10 @@
+### About
+
+This is a simple vue application that shows how internationalization can be implemented using vue-i18n.
+
 ### Installation
 
-Below is an example of how you can setting the app.
+Below is an example of how you can setup the app.
 
 1. Clone the repo
    ```sh
