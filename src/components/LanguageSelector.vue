@@ -4,8 +4,8 @@
             <div class="col-9"></div>
             <div class="col-3">
                 <select name="custom-select"  v-model="lang" @change="handleChange($event)">
-                    <option value="en">English</option>
-                    <option value="pt">Português</option>
+                    <option value="en">{{ $t('en') }}</option>
+                    <option value="pt">{{ $t('pt') }}</option>
                 </select>
             </div>
         </div>
